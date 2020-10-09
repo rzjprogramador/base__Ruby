@@ -1,12 +1,14 @@
 require 'byebug'
 
-# CLASSE COM VARIAVEL DE CLASSE -- PARA SER CHAMADA POR INSTANCIA -- FORA DA CLASSE 
+# DEFININDO COM INITIALIZE UMA VAR DE CLASSE -- PARA SER CHAMADA POR INSTANCIA -- FORA DA CLASSE 
 
 class Teste
-	@@a = 4
+	def initialize
+		@a = 4
+	end	
 
 	def a
-		@@a
+		@a
 	end
 end	
 
