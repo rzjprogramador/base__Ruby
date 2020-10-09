@@ -1,13 +1,21 @@
 require 'byebug'
 
-# FUNÇÃO PARA SER CHAMADA FORA DA CLASSE
+# CLASSE COM VARIAVEL DE CLASSE -- PARA SER CHAMADA POR INSTANCIA -- FORA DA CLASSE 
 
-@a = 1
-def teste
-	puts @a
-end
+class Teste
+	@@a = 4
 
-# CHAMANDO A FUNÇÃO FORA DA CLASSE >
-teste
+	def a
+		@@a
+	end
+end	
+
+# CHAMANDO >>>
+
+puts Teste.new.a
+
+
+
+
 
 
