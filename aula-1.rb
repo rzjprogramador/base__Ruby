@@ -1,19 +1,25 @@
 require 'byebug'
-debugger
 
-h = {}
-puts 1.class
-puts 1.class.superclass
-puts 1.class.superclass.superclass
-puts 4.3.class
-puts 4.3.class.superclass
-puts nil.class
-puts h.class
-puts :symbol.class
-puts [].class
-puts (1..8).class
+# VARIAVEL SIMPLES
+a = 1
+puts a
 
-# Codigos byebug	
-# n	next --vai pro proximo passo
-# s	entra dentro do metodo
-# c	pra ir direto e acabar programa
+
+# VARIAVEL DE INSTÂNCIA -- 
+@a = 2
+puts @a
+
+
+# VARIAVEL DE CLASSE -- Trafega entre classes -- as classes que herdeiras tem acesso a essa variavel .
+@@a = 3
+puts @@a
+
+
+# VARIAVEL GLOBAL -- CUIDADO ..Elas sobrecarregam o servidor
+$a = 4
+puts $a
+
+
+# VARIAVEL CONSTANTE -- ELAS PODEM SER USADAS EM OUTROS ESCOPOS -- NA MAIORIA DAS VEZES SÃO CLASSES --COMEÇAM COM MAIUSCULA
+A = 5
+puts A
