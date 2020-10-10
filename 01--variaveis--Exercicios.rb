@@ -12,7 +12,7 @@ end
 puts Mostranome.new.metodoCriado	
 
 # OBS: O NOME DO METODO TEM QUE SER IGUAL O NOME DO NEW CLASSE QUE VAI SER INSTANCIADO
-# COMO ESTA NO EXEMPLO a função metodo e dps chamada fora da classe com mesmo nome
+# COMO ESTA NO EXEMPLO a função DEF dps chamada fora da classe com mesmo nome
 
 VarDeclarada = "Ruby"
 
@@ -23,4 +23,4 @@ class ClasseparaInstanciar
 	end
 end
 
-puts ClasseparaInstanciar.new.funcaoparaInstanciar	
+puts ClasseparaInstanciar.new.funcaoparaInstanciar
