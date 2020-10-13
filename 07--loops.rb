@@ -57,3 +57,10 @@ end
 	next if i % 2 == 0
 	puts i
 end
+
+# Para buscar numeros pares colocar o operador diferente ! no lugar da comparacao com 0
+
+9.times do |i|
+	next if i % 2 != 0
+	puts i
+end
