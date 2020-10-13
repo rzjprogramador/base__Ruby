@@ -62,5 +62,13 @@ end
 
 9.times do |i|
 	next if i % 2 != 0
+
 	puts i
 end
+
+#Utiliza ro comando EACH no lugar do for ..para mostrar de 1 até 7 com Range
+
+(1..7).each{|i| puts i}
+
+# Com 1 ponto a mais no Range vai fazer um amenos ...vai fazer do 1 ate o 6
+(1...7).each{|i| puts i}
