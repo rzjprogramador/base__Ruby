@@ -1,0 +1,2 @@
+class Golf < Fiesta
+end

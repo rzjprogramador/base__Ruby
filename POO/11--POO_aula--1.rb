@@ -44,6 +44,7 @@ carro.mostrar("Fiat")
 # Quando criamos uma Estancia :: Passamos essas propriedades e metodos para externos.
 # Criar Estancia com new e guardar numa variavel e começar a recuperar seus atributos e metodos
 
+#GET (RETIRAR dados de dentro da classe) e SET (ATRIBUIR dados para dentro da classe)
 # (get) GETTERS :: Atributo  SOMENTE LEITURA :: pode recuperar/acessar e somente ver o atributo (get) NÃO PERMITE adicionar valor.
 # (set) SETTERS :: Atributo que PERMITE ESCRITA ::PERMITE INSERIR  valor a este atributo (set) Pego por PARAMETRO ou não -- Mas ele sozinho não permite só leitura PRECISA DO GET pra pegar o atributo pra ele.
 
