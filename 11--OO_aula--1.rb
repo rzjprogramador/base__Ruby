@@ -26,7 +26,6 @@ end
 carro = Carro.new
 
 # RECUPERAR
-
 carro.nome="Palio"
 carro.mostrar("Fiat")
 carro.mostrar()
